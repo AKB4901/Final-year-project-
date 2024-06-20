@@ -42,17 +42,20 @@ This project provides a comprehensive solution for farmers by offering the follo
 ```bash
 git clone https://github.com/yourusername/one-stop-website-for-farmers.git
 cd one-stop-website-for-farmers
+```
 
-
-**Install Dependencies**
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ### Usage
-Run the Application
+## Run the Application
+```bash
 python app.py
-Project Structure
-.
+```
+### Project Structure
+```csharp
 ├── app.py                # Main application file
 ├── requirements.txt      # Python dependencies
 ├── static
@@ -68,6 +71,7 @@ Project Structure
     ├── crop_recommendation_model.pkl
     ├── fertilizer_recommendation_model.pkl
     └── disease_detection_model.h5
+```
 Model Training
 Crop Recommendation Model
 1.	Dataset: [Link to dataset]
