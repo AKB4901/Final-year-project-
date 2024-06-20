@@ -1,38 +1,48 @@
-One-Stop Website for Farmers
-Overview
-This project provides a comprehensive solution for farmers by offering the following features:
-•	Crop Recommendation: Suggests the best crop to grow based on specific soil and weather parameters.
-•	Fertilizer Recommendation: Recommends the appropriate fertilizer based on the crop and soil conditions.
-•	Plant Leaf Diseases Detection: Identifies diseases in plant leaves and suggests potential treatments.
-•	Weather Forecast: Provides weather forecasts for the next 10 days to help farmers plan their activities.
-Features
-Crop Recommendation
-•	Algorithm: Random Forest
-•	Input Parameters: Nitrogen, Phosphorous, Potassium, Temperature, Humidity, pH, Rainfall
-•	Output: Ideal crop recommendation
-Fertilizer Recommendation
-•	Algorithm: Random Forest
-•	Input Parameters: Crop type, soil nutrients, soil pH, and other relevant parameters
-•	Output: Recommended fertilizer
-Plant Leaf Diseases Detection
-•	Algorithm: Convolutional Neural Network (CNN) using VGG16 architecture
-•	Input: Image of the plant leaf
-•	Output: Disease diagnosis and suggested treatment
-Weather Forecast
-•	API Used: [Specify the Weather API used]
-•	Output: 10-day weather forecast
-Installation
-Prerequisites
-•	Python 3.8+
-•	Flask
-•	TensorFlow
-•	scikit-learn
-•	OpenCV
-•	requests
+# One-Stop Website for Farmers
 
-Clone the Repository
+## Overview
+This project provides a comprehensive solution for farmers by offering the following features:
+- **Crop Recommendation:** Suggests the best crop to grow based on specific soil and weather parameters.
+- **Fertilizer Recommendation:** Recommends the appropriate fertilizer based on the crop and soil conditions.
+- **Plant Leaf Diseases Detection:** Identifies diseases in plant leaves and suggests potential treatments.
+- **Weather Forecast:** Provides weather forecasts for the next 10 days to help farmers plan their activities.
+
+## Features
+
+### Crop Recommendation
+- **Algorithm:** Random Forest
+- **Input Parameters:** Nitrogen, Phosphorous, Potassium, Temperature, Humidity, pH, Rainfall
+- **Output:** Ideal crop recommendation
+
+### Fertilizer Recommendation
+- **Algorithm:** Random Forest
+- **Input Parameters:** Crop type, soil nutrients, soil pH, and other relevant parameters
+- **Output:** Recommended fertilizer
+
+### Plant Leaf Diseases Detection
+- **Algorithm:** Convolutional Neural Network (CNN) using VGG16 architecture
+- **Input:** Image of the plant leaf
+- **Output:** Disease diagnosis and suggested treatment
+
+### Weather Forecast
+- **API Used:** [Specify the Weather API used]
+- **Output:** 10-day weather forecast
+
+## Installation
+
+### Prerequisites
+- Python 3.8+
+- Flask
+- TensorFlow
+- scikit-learn
+- OpenCV
+- requests
+
+### Clone the Repository
+```bash
 git clone https://github.com/yourusername/one-stop-website-for-farmers.git
 cd one-stop-website-for-farmers
+
 
 Install Dependencies
 pip install -r requirements.txt
