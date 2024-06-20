@@ -72,27 +72,26 @@ python app.py
     ├── fertilizer_recommendation_model.pkl
     └── disease_detection_model.h5
 ```
-Model Training
-Crop Recommendation Model
-1.	Dataset: [Link to dataset]
+### Model Training
+## Crop Recommendation Model
+1.	Dataset: [https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset]
 2.	Algorithm: Random Forest
 3.	Training Script: train_crop_recommendation.py
-Fertilizer Recommendation Model
-1.	Dataset: [Link to dataset]
+## Fertilizer Recommendation Model
+1.	Dataset: [https://www.kaggle.com/code/pazindushane/fertilizers-recommendation]
 2.	Algorithm: Random Forest
 3.	Training Script: train_fertilizer_recommendation.py
-Plant Leaf Diseases Detection Model
-1.	Dataset: [Link to dataset]
+## Plant Leaf Diseases Detection Model
+1.	Dataset: [https://www.kaggle.com/code/amitkrjha/plant-disease-detection-using-vgg16]
 2.	Algorithm: CNN with VGG16 architecture
 3.	Training Script: train_disease_detection.py
-Datasets
+### Datasets
 •	Crop Recommendation: Kaggle - Crop Recommendation Dataset
 •	Fertilizer Recommendation: Kaggle - Fertilizer Prediction Dataset
 •	Plant Diseases: Kaggle - Plant Diseases Dataset
-Contributing
+### Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
-•	[Specify any resources, tools, or individuals that helped in the project]
+
 
