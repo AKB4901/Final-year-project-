@@ -44,10 +44,11 @@ git clone https://github.com/yourusername/one-stop-website-for-farmers.git
 cd one-stop-website-for-farmers
 
 
-Install Dependencies
+**Install Dependencies**
+```bash
 pip install -r requirements.txt
 
-Usage
+### Usage
 Run the Application
 python app.py
 Project Structure
